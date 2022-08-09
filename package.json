@@ -1,8 +1,8 @@
 {
-  "name": "WebScrapper",
+  "name": "13_Cricinfo_Scrapper",
   "version": "1.0.0",
   "description": "",
-  "main": "Project.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.25.0",
-    "excel4node": "^1.7.2",
-    "jsdom": "^19.0.0",
-    "minimist": "^1.2.5",
-    "pdf-lib": "^1.17.1"
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "xlsx": "^0.17.0"
   }
 }
